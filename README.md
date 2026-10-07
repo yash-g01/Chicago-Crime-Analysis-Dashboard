@@ -12,6 +12,38 @@ The application provides an executive view of Chicago crime data, featuring:
 * **Interactive Filtering System** allowing multi-select slicing by primary crime type and police district, with a toggle between **Interactive Sliced View** and **Competition Baseline View** (Ground Rule 3).  
 * **Transparent Assumptions Box** detailing time-of-day bins, seasonal groupings, and statutory offense categories.
 
+## 🖼️ Previews
+
+<details>
+<summary><b>Click to expand chart preview gallery</b></summary>
+<br>
+
+| Dashboard Overview | Q1: Monthly Crime Count |
+| :---: | :---: |
+| ![Dashboard](Dashboard.png) | ![Q1](q1-monthly-crime-count-apr-2015-jul-2017.png) |
+
+| Q2: Day of Week | Q3: Time of Day |
+| :---: | :---: |
+| ![Q2](q2-number-of-crimes-by-day-of-the-week.png) | ![Q3](q3-crimes-by-time-of-day-chronological-o.png) |
+
+| Q4: Season (2016) | Q5: Crime Category Share |
+| :---: | :---: |
+| ![Q4](q4-crimes-by-season-year-2016-only.png) | ![Q5](q5-share-of-crime-categories-violent-pro.png) |
+
+| Q6: Arrest Rate % by Time | Q7: Top 10 Crime Types |
+| :---: | :---: |
+| ![Q6](q6-arrest-rate-for-each-time-of-day.png) | ![Q7](q7-top-10-crime-types-by-total-incidents.png) |
+
+| Q8: Top 5 Domestic Crimes | Q9: Police Districts Combo |
+| :---: | :---: |
+| ![Q8](q8-top-5-domestic-crime-types.png) | ![Q9](q9-top-10-police-districts-volume-arrest.png) |
+
+| Q10: Day vs Time Heatmap | |
+| :---: | :---: |
+| ![Q10](q10-crime-density-heatmap-day-of-week-vs.png) | |
+
+</details>
+
 ## **📊 Features & Handout Solutions**
 
 ### **Section A: KPI Metric Cards (K1 – K8)**
