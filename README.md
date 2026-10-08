@@ -145,8 +145,8 @@ git lfs install
 Cloning with Git LFS pulls the complete dataset binary rather than pointer stubs:
 
 ```bash
-git clone https://github.com/<your-username>/Chicago-Crime-Analysis-Dashboard-rc.git
-cd Chicago-Crime-Analysis-Dashboard-rc
+git clone https://github.com/yash-g01/Chicago-Crime-Analysis-Dashboard.git
+cd Chicago-Crime-Analysis-Dashboard
 
 ```
 
