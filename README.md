@@ -42,9 +42,9 @@ The application provides an executive-level single-page interface featuring:
 | :---: | :---: |
 | ![Q8](q8-top-5-domestic-crime-types.png) | ![Q9](q9-top-10-police-districts-volume-arrest.png) |
 
-| Q10: Day vs Time Heatmap | |
-| :---: | :---: |
-| ![Q10](q10-crime-density-heatmap-day-of-week-vs.png) | |
+| Q10: Day vs Time Heatmap |
+| :---: |
+| ![Q10](q10-crime-density-heatmap-day-of-week-vs.png) |
 
 </details>
 
