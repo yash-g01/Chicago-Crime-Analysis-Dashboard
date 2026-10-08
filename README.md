@@ -23,7 +23,7 @@ The application provides an executive view of Chicago crime data, featuring:
 <summary><b>Click to expand chart preview gallery</b></summary>
 <br>
 
-| Dashboard Overview | Q1: Monthly Crime Count |
+| Dashboard Overview/KPIs | Q1: Monthly Crime Count |
 | :---: | :---: |
 | ![Dashboard](Dashboard.png) | ![Q1](q1-monthly-crime-count-apr-2015-jul-2017.png) |
 
@@ -70,28 +70,28 @@ The application provides an executive view of Chicago crime data, featuring:
 
 | Question | Chart Type | Description | Preview |
 | --- | --- | --- | --- |
-| **Q1** | Line Chart with Markers | Monthly crime volume trend from April 2015 to July 2017 (28 months) |  |
-| **Q2** | Column / Bar Chart | Distribution across days of the week, sorted chronologically (Monday to Sunday) |  |
-| **Q3** | Column / Bar Chart | Distribution across times of day, ordered chronologically (Night, Morning, Afternoon, Evening) |  |
-| **Q4** | Donut Chart | Seasonal crime distribution isolated strictly to the year 2016 |  |
-| **Q5** | Donut Chart | Proportion of offenses categorized as **Violent**, **Property**, or **Other** |  |
-| **Q6** | Column / Bar Chart | Arrest rate percentage across each chronological time-of-day period |  |
-| **Q7** | Horizontal Bar Chart | Top 10 primary crime types by total volume, sorted from highest to lowest |  |
-| **Q8** | Horizontal Bar Chart | Top 5 primary crime types specifically for domestic incidents |  |
-| **Q9** | Dual-Axis Combo Chart | Top 10 police districts by total crime volume (bars) and their arrest rate % (secondary line) |  |
-| **Q10** | Heatmap Matrix | 7×4 cross-tabulation matrix of Day of Week vs. Time of Day with density labels |  |
+| **Q1** | Line Chart with Markers | Monthly crime volume trend from April 2015 to July 2017 (28 months) | ![Q1](q1-monthly-crime-count-apr-2015-jul-2017.png) |
+| **Q2** | Column / Bar Chart | Distribution across days of the week, sorted chronologically (Monday to Sunday) | ![Q2](q2-number-of-crimes-by-day-of-the-week.png) |
+| **Q3** | Column / Bar Chart | Distribution across times of day, ordered chronologically (Night, Morning, Afternoon, Evening) | ![Q3](q3-crimes-by-time-of-day-chronological-o.png) |
+| **Q4** | Donut Chart | Seasonal crime distribution isolated strictly to the year 2016 | ![Q4](q4-crimes-by-season-year-2016-only.png) |
+| **Q5** | Donut Chart | Proportion of offenses categorized as **Violent**, **Property**, or **Other** | ![Q5](q5-share-of-crime-categories-violent-pro.png) |
+| **Q6** | Column / Bar Chart | Arrest rate percentage across each chronological time-of-day period | ![Q6](q6-arrest-rate-for-each-time-of-day.png) |
+| **Q7** | Horizontal Bar Chart | Top 10 primary crime types by total volume, sorted from highest to lowest | ![Q7](q7-top-10-crime-types-by-total-incidents.png) |
+| **Q8** | Horizontal Bar Chart | Top 5 primary crime types specifically for domestic incidents | ![Q8](q8-top-5-domestic-crime-types.png) |
+| **Q9** | Dual-Axis Combo Chart | Top 10 police districts by total crime volume (bars) and their arrest rate % (secondary line) | ![Q9](q9-top-10-police-districts-volume-arrest.png) |
+| **Q10** | Heatmap Matrix | 7×4 cross-tabulation matrix of Day of Week vs. Time of Day with density labels | ![Q10](q10-crime-density-heatmap-day-of-week-vs.png) |
 
 ---
 
 ## 📥 Dataset Access & Download
 
-The project evaluates historical Chicago crime records. The dataset can be accessed and downloaded via Google Drive[cite: 1]:
+The project evaluates historical Chicago crime records. The dataset can be accessed and downloaded via Google Drive:
 
-* **Dataset URL**: [Google Drive Crime Dataset](https://docs.google.com/spreadsheets/d/1AwD-nwf3I2LuHUTIBV1JrknORZHT6Ef9/edit?usp=sharing&ouid=113168550696612522845&rtpof=true&sd=true)[cite: 1]
+* **Dataset URL**: [Google Drive Crime Dataset](https://docs.google.com/spreadsheets/d/1AwD-nwf3I2LuHUTIBV1JrknORZHT6Ef9/edit?usp=sharing&ouid=113168550696612522845&rtpof=true&sd=true)
 
 ### Option 1: Direct Browser Download
 
-1. Open the [dataset spreadsheet link](https://docs.google.com/spreadsheets/d/1AwD-nwf3I2LuHUTIBV1JrknORZHT6Ef9/edit?usp=sharing&ouid=113168550696612522845&rtpof=true&sd=true) in your browser[cite: 1].
+1. Open the [dataset spreadsheet link](https://docs.google.com/spreadsheets/d/1AwD-nwf3I2LuHUTIBV1JrknORZHT6Ef9/edit?usp=sharing&ouid=113168550696612522845&rtpof=true&sd=true) in your browser.
 2. Click **File** $\rightarrow$ **Download** $\rightarrow$ **Microsoft Excel (.xlsx)** or **Comma Separated Values (.csv)**.
 3. Save the file into the root folder of this repository as:
 * `Google Drive Crime Dataset.xlsx` or `Crimes Dataset Clean.csv`.
